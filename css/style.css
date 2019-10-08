@@ -1,0 +1,11 @@
+th {
+    background-color: blue;
+    text-justify: inherit;
+}
+
+
+.estilo-formulario{
+    background-color: darkolivegreen;
+    font-style: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
