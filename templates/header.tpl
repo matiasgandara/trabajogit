@@ -6,6 +6,7 @@
                 <meta http-equiv="X-UA-Compatible" content="ie=edge">
                 <base href='{$BASE}'>
                 <title>{$titulo}</title>
+                
             </head>
             <body>
 
