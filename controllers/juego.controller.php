@@ -6,6 +6,7 @@ class JuegoController {
     private $model;
     private $view;
 
+    /*constructor*/
     function __construct() {
         $this->model = new JuegoModel();
         $this->view = new JuegoView();
@@ -16,6 +17,7 @@ class JuegoController {
         $this->view->displayJuegos($juegos);
     }
 
+    /*agregar juego*/
     public function addJuego() {
         if(isset($_GET) && isset($_GET['name']) && isset($_GET['players'])) {
             if(isset($_GET['cards']) == "on") {
@@ -29,6 +31,7 @@ class JuegoController {
         }
     }
 
+    /*borrar juego*/
     public function deleteJuego($id) {
         $this->model->deleteJuego($id);
         header("Location: " . BASE);
